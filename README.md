@@ -17,21 +17,8 @@ This Terraform project demonstrates how to deploy AWS resources, including EC2 i
 
 The project is structured as follows:
 
-project
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── modules
-│ ├── instance
-│ │ ├── main.tf
-│ │ ├── variables.tf
-│ │ └── outputs.tf
-│ ├── vpc
-│ │ ├── main.tf
-│ │ ├── variables.tf
-│ │ └── outputs.tf
-│ └── ...
-└── ...
+
+![assignment](https://github.com/David-Edoh/Altschool_Terraform/assets/45123163/0f3ad1ae-f347-4157-b3db-916982b7e535)
 
 
 - `main.tf`: Main Terraform configuration.
