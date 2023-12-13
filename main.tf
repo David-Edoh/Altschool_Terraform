@@ -1,3 +1,12 @@
+module "eu_west_1_vpc" {
+  source      = "./modules/vpc"
+  region      = "eu-west-1"
+  access_key  = var.access_key
+  secret_key  = var.secret_key
+  vpc_cidr    = "10.0.0.0/16" 
+  environment = var.environment
+}
+
 module "eu_west_1_instances" {
   source            = "./modules/instance"
   region            = "eu-west-1"
@@ -8,6 +17,15 @@ module "eu_west_1_instances" {
   availability_zones = tolist(["eu-west-1a", "eu-west-1b"])
   environment       = var.environment
   instance_count    = 2
+}
+
+module "eu_central_1_vpc" {
+  source      = "./modules/vpc"
+  region      = "eu-central-1"
+  access_key  = var.access_key
+  secret_key  = var.secret_key
+  vpc_cidr    = "10.1.0.0/16" 
+  environment = var.environment
 }
 
 module "eu_central_1_instances" {
@@ -21,5 +39,3 @@ module "eu_central_1_instances" {
   environment       = var.environment
   instance_count    = 2
 }
-
-
