@@ -12,9 +12,6 @@ This Terraform project demonstrates how to deploy AWS resources, including EC2 i
 - [Usage](#usage)
 - [Modules](#modules)
 - [Variables](#variables)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Structure
 
