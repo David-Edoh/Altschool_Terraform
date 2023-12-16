@@ -38,7 +38,7 @@ Before using this project, ensure you have the following prerequisites:
 
 ## Usage
 
-1. Clone the repository and setup .tfvars file:
+1. Clone the repository and setup .tfvars files for the different environment:
 
     ```bash
     git clone https://github.com/David-Edoh/Altschool_Terraform.git
