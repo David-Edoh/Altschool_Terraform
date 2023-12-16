@@ -2,6 +2,9 @@
 
 This Terraform project demonstrates how to deploy AWS resources, including EC2 instances and VPCs, to multiple regions (eu-west-1, eu-central-1) and environments (prod, dev).
 
+![aWS drawio](https://github.com/David-Edoh/Altschool_Terraform/assets/45123163/ddd2bd2c-62f7-4272-b718-239b13786a1c)
+[View diagram](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G1hb5B6hp52HbrsYn4fg3WTLNW3uvpA_Gw)
+
 ## Table of Contents
 
 - [Project Structure](#project-structure)
@@ -39,7 +42,7 @@ Before using this project, ensure you have the following prerequisites:
 
     ```bash
     git clone https://github.com/your-username/terraform-multi-region.git
-    cd terraform-multi-region
+    cd Altschool_Terraform
     ```
 
 2. Initialize Terraform:
