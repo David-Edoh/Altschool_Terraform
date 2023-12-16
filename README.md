@@ -41,7 +41,7 @@ Before using this project, ensure you have the following prerequisites:
 1. Clone the repository and setup .tfvars file:
 
     ```bash
-    git clone https://github.com/your-username/terraform-multi-region.git
+    git clone https://github.com/David-Edoh/Altschool_Terraform.git
     cd Altschool_Terraform
     ```
 
@@ -58,7 +58,7 @@ Before using this project, ensure you have the following prerequisites:
     ```bash
     terraform apply -var-file="prod.tfvars"
     ```
-    Note: Adjust the -var-file arg between dev, staging and prod depending on which environment you want to deploy to.
+    Note: Adjust the -var-file arg between dev, staging or prod depending on which environment you want to deploy to.
 
 ## Modules
 
